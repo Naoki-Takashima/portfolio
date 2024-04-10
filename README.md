@@ -14,11 +14,11 @@ https://dfashion.docomo.ne.jp/top/index/tp_1<br>
 コーダー
 
 ### 使用言語
-・HTML
-・CSS
-・JavaScript(jQuery)
+・HTML<br>
+・CSS<br>
+・JavaScript(jQuery)<br>
 
 ### アジェンダ
-・javascript実装集
-・イベントカレンダープロジェクト
-・画像受託サイト制作プロジェクト
+・javascript実装集<br>
+・イベントカレンダープロジェクト<br>
+・画像受託サイト制作プロジェクト<br>
