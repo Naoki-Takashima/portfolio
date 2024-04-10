@@ -5,9 +5,9 @@
 
 ### 概要
 マガシーク株式会社にて、以下のファッション通販サイトを運用<br>
-マガシーク<br>
+**マガシーク**<br>
 https://www.magaseek.com/top/index/tp_1<br>
-d fashion<br>
+**d fashion**<br>
 https://dfashion.docomo.ne.jp/top/index/tp_1<br>
 
 ### 担当
