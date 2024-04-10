@@ -19,6 +19,7 @@ https://dfashion.docomo.ne.jp/top/index/tp_1<br>
 ・JavaScript(jQuery)<br>
 
 ### アジェンダ
+※過去の制作物より以下を抜粋<br>
 ・javascript実装集<br>
 ・イベントカレンダープロジェクト<br>
 ・画像受託サイト制作プロジェクト<br>
