@@ -1,0 +1,140 @@
+@charset "utf-8";
+/* ランキングCSS */
+#ranking .h2Font {
+  font-family: 'DM Sans', sans-serif;
+  margin: 35px 0 30px;
+  font-size: 27px;
+  font-weight: bold;
+  padding: 0 10px;
+  text-align: left;
+}
+#ranking .h2Font span {
+  display: block;
+  font-family: arial, sans-serif;
+  font-size: 12px;
+}
+#rankList .moreList{
+	display:none;
+	width:100%;
+	margin:0;
+}
+.rankArea .product-list.productList .product-item .inner{
+	background:#fff;
+}
+#ranking .bannerArea{
+	padding-top:0;
+}
+#ranking .itemListArea.more-list.active + h2{
+	margin-top:10px;
+}
+#ranking .topicsArea{
+	margin-top:10px;
+}
+#ranking .rankHead{
+	display:block;
+	font-size:14px;
+	padding:20px 0 14px;
+	text-align:center;
+}
+#ranking .rankArea{
+	background:#fff;
+	margin-top:0;
+	margin-top:30px;
+	position:relative;
+}
+#ranking .itemListArea.active + .rankArea{
+	margin-top:40px;
+}
+#ranking #rankAll .rankHead{
+	padding-top:0;
+}
+#ranking .rankArea .product-list.productList{
+	background:#fff;
+}
+#ranking .rankWrap.active{
+	padding-bottom:30px;
+}
+#ranking #itemGallery .product-list.productList .product-item .inner, #ranking #rireki .product-list.productList .product-item .inner{
+	background:#fff;
+}
+#ranking #rankWrap{
+	padding-bottom:30px;
+}
+.swipe-navigation-tab-list{
+	display:flex;
+	padding:12px 12px 15px;
+	margin-bottom:8px;
+	overflow-y:hidden;
+	overflow-x:scroll;
+}
+.swipe-navigation-tab-item{
+	margin-left:20px;
+	flex-shrink:0;
+	font-size:14px;
+	padding:3px 8px 6px;
+	margin:0 3px;
+}
+.swipe-navigation-tab-item:first-child{
+	margin-left:0;
+}
+.swipe-navigation-tab-item.active{
+	font-weight:bold;
+	color:#000;
+	border-bottom:solid 2px;
+}
+.swipe-navigation-tab-list::-webkit-scrollbar{
+	display:none;
+}
+#swipe_navigation_tab.android .swipe-navigation-tab-list{
+	flex-wrap:wrap;
+  justify-content:space-around;
+	padding:0 12px 15px;
+}
+#swipe_navigation_tab.android .swipe-navigation-tab-item{
+	padding:6px;
+  margin:0;
+}
+#ranking .moreBtn {
+  background: #8BC34A;
+  position: relative;
+  padding: 6px 10px;
+  cursor: pointer;
+  display: block;
+  width: 26%;
+  margin: 10px auto 0;
+  font-size: 14px;
+  letter-spacing: 0em;
+  color: #fff;
+  text-align: center;
+  border-radius: 50px;
+}
+#ranking .moreBtn:before, #ranking .moreBtn:after {
+  position: absolute;
+  content: "";
+  display: block;
+  transition: all 0.4s;
+  background: #fff;
+  right: 8%;
+  top: 50%;
+  width: 10px;
+  height: 1px;
+  transform: translate(-50%, -50%);
+}
+#ranking .moreBtn:before {
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+@media all and (min-width: 768px) {
+  #ranking{
+    padding: 0 20%;
+  }
+  #ranking .product-item{
+    width: calc(100% / 6 - 27px);
+  }
+  .swipe-navigation-tab-item:hover{
+    cursor: pointer;
+    opacity: 0.7;
+  }
+  #ranking .moreBtn:hover{
+    opacity: 0.7;
+  }
+}

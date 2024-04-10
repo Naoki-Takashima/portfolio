@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<meta charset="UTF-8">
+	<meta name="robots" content="noodp" />
+	<meta name="robots" content="index,follow" />
+	<meta name="description" content="javascript制作集" />
+	<title>javascript制作集</title>
+	<link rel="shortcut icon" href="https://www.magaseek.com/files/mg/favicon.ico" type="image/png" />
+	<link rel="alternate" media="only screen and (max-width: 640px)" href="{{alternate_sp}}" />
+	<script type="text/javascript" src="https://www.magaseek.com/files/mg/js/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://www.magaseek.com/files/mg/css/custom.css" />
+	<link rel="stylesheet" href="https://www.magaseek.com/files/mg/css/product-list.css" />
+	<!-- 追加 begin -->
+	<link rel="stylesheet" href="./css/reset.css" />
+	<link rel="stylesheet" href="./css/addRanking.css" />
+	<link rel="stylesheet" href="./css/addReseve.css" />
+	<script src="./js/addRanking.js"></script>
+	<script src="./js/addReseve.js"></script>
+	<!-- 追加 end -->
+</head>
+
+<body id="magaseek">
+	<div id="container">
+		<main class="main">
+			<!-- ランキングエリア begin -->
+			<section class="rankArea" id="ranking">
+				<h2 class="h2Font">RANKING<span>ランキング追加</span></h2>
+				<nav id="swipe_navigation_tab" class="swipe-navigation-tab">
+					<ul class="swipe-navigation-tab-list">
+						<li class="swipe-navigation-tab-item" data-tab-id="rankAll" data-text="すべて" data-param="app_Rank_all">すべて</li>
+						<li class="swipe-navigation-tab-item" data-tab-id="rankTops" data-text="トップス" data-param="app_Rank_Tops">トップス</li>
+						<li class="swipe-navigation-tab-item" data-tab-id="rankOnepi" data-text="ワンピース" data-param="app_Rank_Onepi">ワンピース</li>
+						<li class="swipe-navigation-tab-item" data-tab-id="rankOuter" data-text="アウター" data-param="app_Rank_Outer">アウター</li>
+						<li class="swipe-navigation-tab-item" data-tab-id="rankSkirt" data-text="スカート" data-param="app_Rank_Skirt">スカート</li>
+						<li class="swipe-navigation-tab-item" data-tab-id="rankPants" data-text="パンツ(ボトムス)" data-param="app_Rank_Pants">パンツ(ボトムス)</li>
+						<li class="swipe-navigation-tab-item" data-tab-id="rankShoes" data-text="シューズ" data-param="app_Rank_Shoes">シューズ</li>
+						<li class="swipe-navigation-tab-item" data-tab-id="rankBag" data-text="バッグ" data-param="app_Rank_Bag">バッグ</li>
+					</ul>
+				</nav>
+				<div id="rankWrap"></div>
+			</section>
+			<!-- ランキングエリア end -->
+			<!-- 予約エリア begin -->
+			<section id ="reserve"></section>
+			<!-- 予約エリア end -->
+		</main>
+	</div>
+</body>
+
+</html>

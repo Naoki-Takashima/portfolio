@@ -1,0 +1,240 @@
+@charset "utf-8";
+#reserve img{
+	max-width:100%;
+}
+#reserve .h2Font{
+	font-family: 'DM Sans', sans-serif;
+	margin: 35px 0 30px;
+	font-size: 27px;
+	font-weight: bold;
+	padding: 0 10px;
+	text-align: left;
+}
+#reserve .h2Font span{
+	display: block;
+	font-family: arial, sans-serif;
+	font-size: 12px;
+}
+#reserve .product-list{
+	display:flex;
+	width:100%;
+	padding:0 5px;
+	margin:0 10px;
+	overflow-x:hidden;
+	overflow:scroll;
+}
+#reserve .product-item{
+	display:inline-block;
+	flex:0 0 auto;
+}
+#reserve .product-list.productList .product-item .inner{
+	background:#fff;
+}
+#reserve .moreBtn{
+	margin:50px 10px 0 0;
+	padding:18px 10px 27px;
+	background:#fff;
+}
+#reserve .product-list .moreBtn a{
+	background:#8bc34a;
+	color:#fff;
+	padding:7px 0;
+	border-radius:30px;
+	display:block;
+}
+#reserve .product-list::-webkit-scrollbar{
+	width:0;
+	height:3px;
+}
+#reserve .product-list::-webkit-scrollbar-thumb{
+	background:#ddd;
+	border-radius:5px;
+}
+#reserve .product-list::-webkit-scrollbar-track{
+	background:#fff;
+}
+#reserve .hisHead p{
+	font-size:14px;
+	margin:0 5px 10px;
+	text-align: left;
+}
+#reserveBnrArea{
+	margin-top:10px;
+}
+#reserveBnrList{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	list-style:none;
+	margin:0;
+	padding:0 3%;
+}
+#reserveBnrList li{
+	width:calc(100% / 2 - 5px);
+	margin-top:0;
+}
+#reserveBnrList li:nth-child(n+3){
+	margin-top:10px;
+}
+#reserveBnrList img{
+	width:100%;
+}
+#reserveShopArea{
+	margin-top:0;
+}
+#reserveShopList{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:left;
+	list-style:none;
+	border-bottom:solid 1px #f3f3f3;
+}
+#reserveShopList li{
+	width:calc(100% / 3);
+	padding:0;
+	border-top:solid 1px #f3f3f3;
+	box-sizing:border-box;
+}
+#reserveShopList li:nth-child(3n-2){
+	border-right:solid 1px #f3f3f3;
+}
+#reserveShopList li:nth-child(3n-1){
+	border-right:solid 1px #f3f3f3;
+}
+#reserveShopList li a{
+	padding:8px 0;
+	display:block;
+}
+#reserveShopList li img{
+	width:100%;
+}
+#reserve .headerBanner.middle{
+	margin:30px 3% 30px;
+}
+#reserve .reserve-item-area{
+	margin:50px 0 30px;
+}
+#reserve .allBtn{
+	text-align: center;
+  padding: 23px 0 30px;
+}
+#reserve .allBtn .btn{
+	position: relative;
+	display: inline-block;
+}
+#reserve .allBtn .btn:before, #reserve .allBtn .btn:after {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 50%;
+	right: -10px;
+	width: 7px;
+	height: 7px;
+	margin-top: -6px;
+	border-top: solid 1px;
+	border-right: solid 1px;
+	transform: rotate(45deg);
+	color: #000;
+}
+@media all and (min-width:768px){
+	#reserve{
+		padding: 0 20%;
+	}
+	#reserve .product-list{
+		margin:0 0 0 5px;
+		padding:0 0px 10px 0px;
+	}
+	#reserve .product-item{
+		margin-right:20px;
+		margin-top:0;
+	}
+	#content.top #reserve .product-item{
+		margin-top:0;
+	}
+	#content.top #reserve .product-item:nth-of-type(6n+1){
+		margin-left:20px;
+	}
+	#content.top #reserve .product-item:first-child{
+		margin-left:0;
+	}
+	#reserve .product-list::-webkit-scrollbar{
+		height:7px;
+	}
+	#reserve .moreBtn{
+		margin:30px 0 0 0;
+	}
+	#reserveBnrList li{
+		width:calc(100% / 3 - 5px);
+	}
+	#reserveBnrList li:nth-child(n+3){
+		margin-top:0;
+	}
+	#reserveBnrList li:nth-child(n+4){
+		margin-top:10px;
+	}
+	#reserveBnrList.M li:nth-child(n+4){
+		display:none;
+	}
+	#reserveBnrList li a:hover{
+		opacity:0.7;
+	}
+	#reserveShopList{
+		justify-content:space-between;
+		border-bottom:none;
+		margin:0;
+	}
+	#reserveShopList li{
+		width:calc(100% / 5 - 5px);
+		border:solid 1px #f3f3f3;
+	}
+	#reserveShopList li:nth-child(n+6){
+		margin-top:10px;
+	}
+	#reserveShopList li a{
+		padding:8px 18px;
+	}
+	#reserveShopList li a:hover{
+		opacity:0.7;
+	}
+	#reserve .headerBanner{
+		padding-top:56px;
+	}
+	#reserve .banner{
+		background-size:380px 56px;
+		position:absolute;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+	}
+	#reserve .banner a{
+		display:block;
+		width:100%;
+		height:100%;
+		cursor:pointer;
+	}
+	#reserve .banner img{
+		display:none;
+	}
+	#reserve .headerBanner {
+		position: relative;
+    padding-top: 56px;
+	}
+	#reserve .headerBanner .banner {
+    background-size: 380px 56px !important;
+	}
+	#reserveBnrList{
+    padding: 0;
+  }
+	#reserve .headerBanner.middle{
+		margin: 30px 0;
+	}
+}
+@media all and (max-width:768px){
+	#reserveBnrList li:nth-child(n+5){
+		display:none;
+	}
+	#reserveShopList li:nth-child(n+10){
+		display:none;
+	}
+}
