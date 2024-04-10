@@ -1,0 +1,204 @@
+[
+	{
+		"groupId": "MTY_Golf",
+		"client": "株式会社松屋",
+		"media": "ゴルフカタログ",
+		"data": [
+			{
+				"fileName": "photodeli_P_40004.jpg"
+			},
+			{
+				"fileName": "photodeli_P_40003.jpg"
+			},
+			{
+				"fileName": "photodeli_P_50001.jpg"
+			},
+			{
+				"fileName": "photodeli_P_50003.jpg"
+			}
+		]
+	},
+	{
+		"groupId": "MTY_Shoubi",
+		"client": "株式会社松屋",
+		"media": "松美会",
+		"data": [
+			{
+				"fileName": "photodeli_P_30001.jpg"
+			},
+			{
+				"fileName": "photodeli_P_30002.jpg"
+			},
+			{
+				"fileName": "photodeli_P_30003.jpg"
+			}
+		]
+	},
+	{
+		"groupId": "RBKGS_2022AW",
+		"client": "ラボキゴシ2022AW",
+		"media": "WEBカタログ",
+		"data": [
+			{
+				"fileName": "photodeli_4_0001.jpg"
+			},
+			{
+				"fileName": "photodeli_4_0002.jpg"
+			},
+			{
+				"fileName": "photodeli_4_0003.jpg"
+			},
+			{
+				"fileName": "photodeli_4_0004.jpg"
+			},
+			{
+				"fileName": "photodeli_4_0005.jpg"
+			},
+			{
+				"fileName": "photodeli_4_0006.jpg"
+			},
+			{
+				"fileName": "photodeli_4_0007.jpg"
+			},
+			{
+				"fileName": "photodeli_4_0008.jpg"
+			},
+			{
+				"fileName": "photodeli_4_0009.jpg"
+			},
+			{
+				"fileName": "photodeli_4_0010.jpg"
+			}
+		]
+	},
+	{
+		"groupId": "RBKGS_2022SS",
+		"client": "ラボキゴシ2022SS",
+		"media": "WEBカタログ",
+		"data": [
+			{
+				"fileName": "photodeli_5_0001.jpg"
+			},
+			{
+				"fileName": "photodeli_5_0002.jpg"
+			},
+			{
+				"fileName": "photodeli_5_0003.jpg"
+			},
+			{
+				"fileName": "photodeli_5_0004.jpg"
+			},
+			{
+				"fileName": "photodeli_5_0005.jpg"
+			},
+			{
+				"fileName": "photodeli_5_0006.jpg"
+			}
+		]
+	},
+	{
+		"groupId": "RBKGS_2021AW",
+		"client": "ラボキゴシ2021AW",
+		"media": "WEBカタログ",
+		"data": [
+			{
+				"fileName": "photodeli_2_0001.jpg"
+			},
+			{
+				"fileName": "photodeli_2_0002.jpg"
+			},
+			{
+				"fileName": "photodeli_2_0003.jpg"
+			},
+			{
+				"fileName": "photodeli_2_0004.jpg"
+			},
+			{
+				"fileName": "photodeli_2_0005.jpg"
+			},
+			{
+				"fileName": "photodeli_2_0006.jpg"
+			},
+			{
+				"fileName": "photodeli_2_0007.jpg"
+			},
+			{
+				"fileName": "photodeli_2_0008.jpg"
+			},
+			{
+				"fileName": "photodeli_2_0009.jpg"
+			},
+			{
+				"fileName": "photodeli_2_0010.jpg"
+			},
+			{
+				"fileName": "photodeli_2_0011.jpg"
+			},
+			{
+				"fileName": "photodeli_2_0012.jpg"
+			},
+			{
+				"fileName": "photodeli_2_0013.jpg"
+			},
+			{
+				"fileName": "photodeli_2_0014.jpg"
+			},
+			{
+				"fileName": "photodeli_2_0015.jpg"
+			},
+			{
+				"fileName": "photodeli_2_0016.jpg"
+			},
+			{
+				"fileName": "photodeli_2_0017.jpg"
+			},
+			{
+				"fileName": "photodeli_2_0018.jpg"
+			},
+			{
+				"fileName": "photodeli_2_0019.jpg"
+			}
+		]
+	},
+	{
+		"groupId": "RBKGS_2021SS",
+		"client": "ラボキゴシ2021SS",
+		"media": "WEBカタログ",
+		"data": [
+			{
+				"fileName": "photodeli_3_0001.jpg"
+			},
+			{
+				"fileName": "photodeli_3_0002.jpg"
+			},
+			{
+				"fileName": "photodeli_3_0003.jpg"
+			},
+			{
+				"fileName": "photodeli_3_0004.jpg"
+			},
+			{
+				"fileName": "photodeli_3_0005.jpg"
+			}
+		]
+	},
+	{
+		"groupId": "RBKGS_2020AW",
+		"client": "ラボキゴシ2020AW",
+		"media": "WEBカタログ",
+		"data": [
+			{
+				"fileName": "photodeli_1_0001.jpg"
+			},
+			{
+				"fileName": "photodeli_1_0002.jpg"
+			},
+			{
+				"fileName": "photodeli_1_0003.jpg"
+			},
+			{
+				"fileName": "photodeli_1_0004.jpg"
+			}
+		]
+	}
+]
