@@ -1,0 +1,402 @@
+/*------------------------------------------
+  カレンダー企画
+------------------------------------------*/
+#bodyContent{
+	border-bottom: none;
+}
+#EVESCH{
+	/* リセット */
+	font-family:"メイリオ", "Hiragino Sans", "Noto Sans Japanese", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+	font-size:12px;
+	text-align:center;
+	line-height:1.6;
+	letter-spacing:0.05em;
+	color:#000;
+	background:#fff;
+}
+#EVESCH p, #EVESCH h1, #EVESCH h2, #EVESCH h3, #EVESCH figure{
+	margin:0;
+	line-height:1.6;
+}
+#EVESCH img{
+	max-width:100%;
+	vertical-align:bottom;
+}
+#EVESCH a{
+	color:#222;
+	text-decoration: none;
+}
+#EVESCH ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+/* キービジュアル */
+#EVESCH .keyv{
+	padding: 25px 4% 31px;
+	background: #F5F5F5;
+}
+#EVESCH .keyv figure{
+	width: 9.46%;
+	display: inline-block;
+}
+#EVESCH .keyv .head{
+	margin-top: 7px;
+	font-size: 26px;
+}
+#EVESCH .keyv .sub{
+	font-size: 11px;
+}
+/* カレンダー */
+#EVESCH #calendar .fc-daygrid-day-events{
+	min-height: 4em;
+}
+#EVESCH #calendar .fc-header-toolbar{
+	margin: 25px 4% 17px;
+}
+#EVESCH #calendar #fc-dom-1{
+	font-size: 20px;
+	font-weight: normal;
+}
+#EVESCH #calendar .fc-col-header .fc-scrollgrid-sync-inner{
+	border-color: #f5f5f5;
+}
+#EVESCH #calendar .fc-next-button{
+	padding: 7px 24px 6px 20px;
+}
+#EVESCH #calendar .fc-prev-button{
+	padding: 7px 20px 6px 24px;
+}
+#EVESCH #calendar .fc-button-primary{
+	background: #fff;
+	border-color: #888;
+}
+#EVESCH #calendar .fc-button-primary:disabled{
+	background: #F5F5F5;
+	cursor: default;
+}
+#EVESCH #calendar .fc-icon-chevron-left{
+	font-size: 12px;
+	width: 100%;
+	position: relative;
+	color: #888;
+	margin-top: -4px;
+}
+#EVESCH #calendar .fc-icon-chevron-left::after{
+	content: '前の月';
+	font-size: 12px;
+}
+#EVESCH #calendar .fc-icon-chevron-left::before{
+	content: "";
+	display: block;
+	position: absolute;
+	top: 8px;
+	right: 42px;
+	width: 7px;
+	height: 7px;
+	margin-top: -5px;
+	border-top: solid 1px #888;
+	border-right: solid 1px #888;
+	transform: rotate(225deg);
+}
+#EVESCH #calendar .fc-icon-chevron-right{
+	font-size: 12px;
+	width: 100%;
+	position: relative;
+	color: #888;
+	margin-top: -4px;
+}
+#EVESCH #calendar .fc-icon-chevron-right::before{
+	content: '次の月';
+	font-size: 12px;
+}
+#EVESCH #calendar .fc-icon-chevron-right::after{
+	content: "";
+	display: block;
+	position: absolute;
+	top: 8px;
+	right: -14px;
+	width: 7px;
+	height: 7px;
+	margin-top: -5px;
+	border-top: solid 1px #888;
+	border-right: solid 1px #888;
+	transform: rotate(45deg);
+}
+#EVESCH #calendar .fc-day-sat .fc-col-header-cell-cushion{
+	color:#2F6DE0;
+}
+#EVESCH #calendar .fc-day-sun .fc-col-header-cell-cushion{
+	color:#F54D5D;
+}
+#EVESCH #calendar .fc-scrollgrid-sync-table .fc-day-sat .fc-daygrid-day-number{
+	color:#2F6DE0;
+}
+#EVESCH #calendar .fc-scrollgrid-sync-table .fc-day-sun .fc-daygrid-day-number{
+	color:#F54D5D;
+}
+#EVESCH #calendar .is_holiday .fc-daygrid-day-number{
+	color:#F54D5D;
+}
+#EVESCH #calendar .fc-col-header-cell{
+	font-weight: normal;
+}
+#EVESCH #calendar .fc-col-header-cell{
+	background: #F5F5F5;
+}
+#EVESCH #calendar .fc-col-header-cell-cushion{
+	padding: 7px 4px 5px;
+}
+#EVESCH #calendar .fc-day-disabled{
+	background: #fff;
+}
+#EVESCH #calendar .fc-daygrid-day-number{
+	margin: 0 auto;
+	font-size: 14px;
+}
+#EVESCH #calendar .fc-day-other .fc-daygrid-event{
+	opacity: 0.5;
+}
+#EVESCH #calendar .fc-event-title.fc-sticky{
+	text-overflow: ellipsis;
+}
+#EVESCH #calendar .fc-daygrid-day-top{
+	margin-top: 4px;
+}
+#EVESCH #schedule .note{
+	background: #fff;
+	color: #555;
+	font-size: 12px;
+	padding: 20px 0 32px;
+}
+/* トピックス */
+#EVESCH #topics{
+	background: #F5F5F5;
+}
+#EVESCH #topics .titleArea{
+	padding: 40px 5.3% 30px;
+}
+#EVESCH #topics .titleArea figure{
+	width: 19.3%;
+	display: inline-block;
+}
+#EVESCH #topics .titleArea .head{
+	font-size: 26px;
+	margin-top: 12.8px;
+}
+#EVESCH #topics .topicsList{
+	margin: 0 5.3%;
+}
+#EVESCH #topics .topicsList li{
+	text-align: left;
+	padding-top: 56px;
+	margin-top: -56px;
+}
+#EVESCH #topics .topicsList li:first-child{
+	padding-top: 30px;
+}
+#EVESCH #topics .topicsList li a{
+	display: block;
+	position: relative;
+	padding: 18px 13.7% 18px 4.7%;
+	border-radius: 5px;
+	text-decoration: none;
+	background: #fff;
+	box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
+	margin-top: 20px;
+}
+#EVESCH #topics .topicsList li a::after{
+	content: "";
+	display: block;
+	position: absolute;
+	top: 50%;
+	right: 15px;
+	width: 13px;
+	height: 13px;
+	margin-top: -5px;
+	border-top: solid 2px #ddd;
+	border-right: solid 2px #ddd;
+	transform: rotate(45deg);
+}
+#EVESCH #topics .topicsList li .disabled::after{
+	content: none;
+}
+#EVESCH #topics .topicsList .time{
+	padding-left: 17px;
+	font-size: 13px;
+	color: #555;
+	line-height: 1.7;
+	position: relative;
+}
+#EVESCH #topics .topicsList .time::before{
+	content: '';
+	position: absolute;
+	top: 3px;
+	left: -1px;
+	background-image: url(https://img08.magaseek.com/images/mg/contents/EVESCH/time.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 13px;
+	height: 13px;
+}
+#EVESCH #topics .topicsList .title{
+	font-size: 15px;
+	font-weight: bold;
+	padding: 0;
+	line-height: 1.7;
+}
+#EVESCH #topics .topicsList .dis{
+	margin-top: 3px;
+	font-size: 13px;
+	color: #222;
+	line-height: 1.7;
+}
+#EVESCH #topics .topLink{
+	padding: 40px 0 49px;
+}
+#EVESCH #topics .topLink a{
+	text-decoration: underline;
+	display: inline-block;
+	font-size: 16px;
+}
+/* カラー */
+#EVESCH #calendar .calendar_holiday{
+	display: none;
+}
+#EVESCH #calendar .calendar_event{
+	background: #418EF3;
+	border-color: #418EF3;
+}
+#EVESCH #calendar .calendar_event2{
+	background: #00B489;
+	border-color: #00B489;
+}
+#EVESCH #calendar .calendar_item{
+	background: #FC3491;
+	border-color: #FC3491;
+}
+#EVESCH #calendar .calendar_item2{
+	background: #2cc3de;
+	border-color: #2cc3de;
+}
+#EVESCH #calendar .calendar_sale{
+	background: #FF4747;
+	border-color: #FF4747;
+}
+#EVESCH #calendar .calendar_sale2{
+	background: #C869E3;
+	border-color: #C869E3;
+}
+#EVESCH #calendar .calendar_special{
+	background: #F6B503;
+	border-color: #F6B503;
+}
+#EVESCH #topics .topicsList .calendar_event .title{
+	color: #418EF3;
+}
+#EVESCH #topics .topicsList .calendar_event2 .title{
+	color: #00B489;
+}
+#EVESCH #topics .topicsList .calendar_item .title{
+	color: #FC3491;
+}
+#EVESCH #topics .topicsList .calendar_item2 .title{
+	color: #2cc3de;
+}
+#EVESCH #topics .topicsList .calendar_sale .title{
+	color: #FF4747;
+}
+#EVESCH #topics .topicsList .calendar_sale2 .title{
+	color: #C869E3;
+}
+#EVESCH #topics .topicsList .calendar_special .title{
+	color: #F6B503;
+}
+
+/* ----------------- PC ---------------- */
+@media screen and (min-width: 768px){
+	#EVESCH .keyv{
+		padding: 37px  4% 33px;
+	}
+	#EVESCH .keyv figure{
+		width: 40px;
+	}
+	#EVESCH .keyv .head{
+		font-size: 45px;
+		line-height: 1.2;
+	}
+	#EVESCH .keyv .sub{
+		font-size: 14px;
+	}
+	#EVESCH #calendar #fc-dom-1{
+		font-size: 25px;
+	}
+	#EVESCH #calendar{
+		margin: 0 145px;
+	}
+	#EVESCH #calendar button:hover{
+		opacity: 0.7;
+	}
+	#EVESCH #calendar .fc-daygrid-event:hover{
+		opacity: 0.7;
+	}
+	#EVESCH #calendar .fc-day-other .fc-daygrid-event:hover{
+		opacity: 0.3;
+	}
+	#EVESCH #calendar .fc-day-past .fc-daygrid-event{
+		cursor: default;
+	}
+	#EVESCH #calendar .fc-day-past .fc-daygrid-event:hover{
+		opacity: 1;
+	}
+	#EVESCH #calendar .fc-daygrid-day-number{
+		font-size: 16px;
+	}
+	#EVESCH #topics .topicsList li{
+		padding-top: 75px;
+		margin-top: -75px;
+	}
+	#EVESCH #topics .topicsList li:first-child{
+		padding-top: 50px;
+	}
+	#EVESCH #topics .topicsList li a:hover{
+		opacity: 0.7;
+	}
+	#EVESCH #topics .topicsList li .disabled:hover{
+		opacity:1
+	}
+	#EVESCH #calendar .fc-header-toolbar{
+		margin:40px 0 23px;
+	}
+	#EVESCH #schedule .note{
+		padding: 18px 0 39px;
+	}
+	#EVESCH #topics .titleArea {
+		padding: 51px 5.3% 30px;
+	}
+	#EVESCH #topics .titleArea figure{
+		width: 100px;
+	}
+	#EVESCH #topics .titleArea .head{
+		font-size: 35px;
+		line-height: 1.2;
+	}
+	#EVESCH #topics .topicsList{
+		margin: 0 200px;
+	}
+	#EVESCH #topics .topLink{
+		padding: 60px 0 70px;
+	}
+	#EVESCH #topics .topLink a:hover{
+		opacity: 0.7;
+		text-decoration: none;
+	}
+
+}
+@media screen and (max-width: 768px){
+	#EVESCH #calendar .fc-event-title{
+		display: block;
+		font-size: 10px;
+		transform: scale(0.9);
+	}
+}
