@@ -1,11 +1,12 @@
 # 過去制作LP
-### ラグジュアリーブランド<br>
+#### ラグジュアリーブランド<br>
 https://www.magaseek.com/static/cont/id_UPMARKET
-### パーソナルカラー診断<br>
+#### パーソナルカラー診断<br>
 https://dfashion.docomo.ne.jp/static/cont/id_lpPCOLOR
-### 浴衣の着付け<br>
+#### 浴衣の着付け<br>
 https://dfashion.docomo.ne.jp/static/cont/id_lpYUKATA
-
+#### PhotoDeri worksページ<br>
+https://photo-deli.magaseek.co.jp/works/
 
 # 制作参考URL<br>
 これぐらいのアニメーションを作成できます。<br>
